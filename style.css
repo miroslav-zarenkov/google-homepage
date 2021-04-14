@@ -1,0 +1,77 @@
+footer{
+    position: fixed;
+    bottom: 5px;
+    min-width: 100vw;
+    min-height: 3vh;
+    
+}
+
+header{
+    position: fixed;
+    top: 5px;
+    min-width: 100vw;
+    min-height: 3vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-links{
+    display: flex;
+    
+}
+
+#google-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 40vh;
+}
+
+#google-search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-search-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+body{
+  min-height: 94vh;
+  min-width: 100vw;
+  margin: 0;
+  border-bottom: 1px solid black;  
+}
+
+#searchbox{
+    width: auto;
+    max-width: 584px;
+    min-width: 30vw;
+    height: 30px;
+    border-radius: 30px;
+}
+
+a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    margin: 3px;
+}
+#google-apps-button{
+    height: 40px;
+    width: 40px;
+}
+
+#google-profile-button{
+    background-color: brown;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid black
+}

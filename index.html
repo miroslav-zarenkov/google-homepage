@@ -3,33 +3,49 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google</title>
 </head>
 
 <body>
 <header>
     <nav>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>Apps Button</li>
-            <li>Account Button</li>
-        </ul>
+       <div id="header-links">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#" id="google-apps-button">
+                <svg>
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+            </svg></a>
+            <a href="#" id="google-profile-button">М</a>
+        </div>
     </nav>    
 </header>
 <main>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    <input type="text" name="search">
-    <button type="submit">Google Search</button>
-    <button type="submit">I'm Feeling Lucky</button>
+    <div id="google-logo">
+        <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+    </div>
+    <div id="google-search-input">
+        <input type="text" name="search" id="searchbox">
+    </div>
+    <div id="google-search-buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm Feeling Lucky</button>
+    </div>
 </main>
 <footer>
-    <p>About</p>
-    <p>Advertising</p>
-    <p>Business</p>
-    <p>How Search works</p>
-    <p>Privacy</p>
-    <p>Terms</p>
-    <p>Settings</p>
+    <nav>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+        
+    </nav>
 </footer>
 </body>
