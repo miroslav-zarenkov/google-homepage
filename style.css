@@ -1,9 +1,34 @@
+body{
+    font-family: arial, sans-serif;
+}
+
 footer{
     position: fixed;
-    bottom: 5px;
-    min-width: 100vw;
-    min-height: 3vh;
-    
+    bottom: 0px;
+    height: 46px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+}
+
+body{
+    margin-left: 0;
+}
+.footer-left-right{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+.footer-left-right a{
+    padding: 15px;
 }
 
 header{
@@ -18,14 +43,14 @@ header{
 
 #header-links{
     display: flex;
-    
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
 }
 
 #google-logo{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    min-height: 40vh;
+    min-height: 35vh;
 }
 
 #google-search-input{
@@ -42,13 +67,6 @@ header{
     margin: 5px;
 }
 
-body{
-  min-height: 94vh;
-  min-width: 100vw;
-  margin: 0;
-  border-bottom: 1px solid black;  
-}
-
 #searchbox{
     width: auto;
     max-width: 584px;
@@ -57,21 +75,31 @@ body{
     border-radius: 30px;
 }
 
-a{
+#header-links a{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     margin: 3px;
 }
+
+footer a{
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #70757a;
+    text-decoration: underline;
+}
+
 #google-apps-button{
     height: 40px;
     width: 40px;
 }
 
-#google-profile-button{
-    background-color: brown;
+#google-login-button{
+    background-color: rgb(65, 82, 231);
     color: white;
     height: 30px;
-    width: 30px;
+    width: 50px;
     border-radius: 30px;
-    border: 1px solid black
 }
