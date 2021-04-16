@@ -31,21 +31,6 @@ body{
     padding: 15px;
 }
 
-header{
-    position: fixed;
-    top: 5px;
-    min-width: 100vw;
-    min-height: 3vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#header-links{
-    display: flex;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-}
-
 #google-logo{
     display: flex;
     justify-content: center;
@@ -75,12 +60,6 @@ header{
     border-radius: 30px;
 }
 
-#header-links a{
-    color: rgba(0,0,0,0.87);
-    text-decoration: none;
-    margin: 3px;
-}
-
 footer a{
     color: #70757a;
     text-decoration: none;
@@ -91,15 +70,26 @@ footer a:hover{
     text-decoration: underline;
 }
 
-#google-apps-button{
-    height: 40px;
-    width: 40px;
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height: 3vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+
+/*
 #google-login-button{
-    background-color: rgb(65, 82, 231);
-    color: white;
-    height: 30px;
-    width: 50px;
-    border-radius: 30px;
+    height: 36px;
+    min-width: 96px;
+    width: 5em;
+    background-color: rgb(26, 115, 232);
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    
 }
+*/
