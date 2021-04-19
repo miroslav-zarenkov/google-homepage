@@ -80,16 +80,21 @@ header{
     align-items: center;
 }
 
-
-/*
 #google-login-button{
     height: 36px;
+    line-height: 36px;
+   text-align: center;
     min-width: 96px;
     width: 5em;
     background-color: rgb(26, 115, 232);
     color: #fff;
     border-radius: 4px;
-    text-align: center;
-    
 }
-*/
+
+header a{
+    text-decoration: none;
+    margin: 10px;
+    color:rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
