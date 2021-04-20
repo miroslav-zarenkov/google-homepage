@@ -175,3 +175,7 @@ header a{
         margin: 3px;
     }
 }
+
+input[type="text"]{
+    padding-left: 25px;
+}
