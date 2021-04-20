@@ -159,6 +159,9 @@ header a{
         display: flex;
         flex-wrap: wrap;
     }
+    #how-search-works{
+        display: none;
+    }
 }
     
 @media (max-width: 320px) {
